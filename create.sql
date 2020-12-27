@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS `goblog`;
-DROP TABLE IF EXISTS `Employee`;
+DROP TABLE IF EXISTS `goblog`.`Employee`;
+
 CREATE DATABASE `goblog`;
+
 USE `goblog`;
 CREATE TABLE `Employee` (
   `id` int(6) unsigned NOT NULL AUTO_INCREMENT,
