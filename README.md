@@ -1,8 +1,12 @@
-## Go-Crud
+## Build
+
+### Go-Blog
 
 ./build.go.sh
 
 
-## MySQL
+## Initialize
+
+### MySQL Database
 
 ./init.db.sh
