@@ -1,0 +1,27 @@
+---
+version: '2.1'
+
+services:
+
+  mysql:
+    image: "mysql"
+    container_name: goblog-mysql
+    restart: always
+    environment:
+      - "MYSQL_ROOT_PASSWORD=root"
+    ports:
+      - "0.0.0.0:3306:3306"
+    volumes:
+      - "$PWD/mysql/data:/var/lib/mysql"
+      - "$PWD/mysql/conf.d:/etc/mysql/conf.d"
+
+  go:
+    image: "go-dock:latest"
+    container_name: go-dock
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mysql
+    links:
+      - mysql
