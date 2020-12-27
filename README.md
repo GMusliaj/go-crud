@@ -1,6 +1,6 @@
 ## Build
 
-### Go-Blog
+### Go-Crud
 
 ./build.go.sh
 
