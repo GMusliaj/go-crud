@@ -6,14 +6,14 @@ This is a simple CRUD written in GO running in a dockerized environment. I use m
 
 ### Go-Crud
 
-./build.go.sh
+./scripts/build.go.sh
 
 
 ## Initialize
 
 ### MySQL Database
 
-./init.db.sh
+./scripts/init.db.sh
 
 ## Run services
 
