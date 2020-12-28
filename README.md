@@ -1,6 +1,6 @@
 ## Overview
 
-This is a simple CRUD written in GO running in a dockerized environment. I use mysql as DB but you can you your own. Note that the go and mysql containers are separate and they are linked together in the docker-compose file.
+This is a simple CRUD written in GO running in a dockerized environment. I use mysql as DB but you can use your own. Note that the go and mysql containers are separate and they are linked together in the docker-compose file.
 
 ## Build
 
