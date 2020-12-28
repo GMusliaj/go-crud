@@ -5,7 +5,7 @@ services:
 
   mysql:
     image: "mysql"
-    container_name: goblog-mysql
+    container_name: go-crud-mysql
     restart: always
     environment:
       - "MYSQL_ROOT_PASSWORD=root"
@@ -16,8 +16,8 @@ services:
       - "$PWD/mysql/conf.d:/etc/mysql/conf.d"
 
   go:
-    image: "go-dock:latest"
-    container_name: go-dock
+    image: "go-crud:latest"
+    container_name: go-crud-container
     restart: always
     ports:
       - "3000:3000"

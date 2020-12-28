@@ -8,16 +8,16 @@ This is a simple CRUD written in GO running in a dockerized environment. I use m
 
 ./scripts/build.go.sh
 
+## Run services
+
+docker-compose up -d
+
 
 ## Initialize
 
 ### MySQL Database
 
 ./scripts/init.db.sh
-
-## Run services
-
-docker-compose up -d
 
 ## Demo
 

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat create.sql | docker exec -i goblog-mysql mysql -u root -p --password=root
+cat scripts/create.sql | docker exec -i go-crud-mysql mysql -u root -p --password=root

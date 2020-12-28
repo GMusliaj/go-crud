@@ -3,4 +3,4 @@
 go mod init main
 go mod tidy
 
-docker build . -t go-dock
+docker build . -t go-crud
