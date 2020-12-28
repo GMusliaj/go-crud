@@ -10,3 +10,11 @@
 ### MySQL Database
 
 ./init.db.sh
+
+## Run services
+
+docker-compose up -d
+
+## Demo
+
+http://localhost:3000
